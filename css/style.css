@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+	
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+section{
+	background: #4A8BAB url(../images/fist.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#signup{
+
+}
+.signup-form{
+	background: #E0E0E0;
+    width: 400px;
+    min-height: 250px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 13px rgba(51, 51, 51, 0.46);
+}
+.heading{
+	position: relative;
+	margin-top: 16px;
+    margin-right: 22px;
+}
+.heading h1{
+	margin: 0;
+	text-transform: uppercase; 
+	color: #2C3E50;
+}
+.img{}
+.img img{
+	height: 27px;
+    position: absolute;
+    top: 2px;
+    right: 95px;
+}
+.signup{
+	margin: 0 auto;
+}
+.signup form{
+	width: 93%;
+}
+.signup form input{    
+	display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 14px;
+    border-radius: 3px;
+    border-color: rgb(218, 214, 214);
+    border-style: solid;
+}
+.txt{}
+.remember{
+	width: 50%;
+    float: left;
+    margin-top: 2px;
+}
+.remember form{}
+.remember form input{
+	float: left;
+    margin: 3px 5px 0 12px;
+}
+.remember p{
+	float: left;
+    margin: 0;
+    color: #2d4469;
+}
+.forget{
+	float: left;
+    width: 50%;
+    margin-top: 2px;
+}
+.forget a{
+	padding-left: 43px;
+    text-decoration: none;
+    color: #0582b1;
+}
+.sign-up{
+	display: block;
+    margin-top: 35px;
+}
+.sign-up a{
+	background: #1F5F8B;
+    padding: 9px 151px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer{}
+.footer a{
+	text-decoration: none;
+    color: #0582b2;
+    font-size: 14px;
+}
+.footer p{
+	margin: 16px 0;
+    padding-top: 5px;
+}
+.footer span{
+	color: ##2d4469;
+	font-size: 14px;
+
+}
